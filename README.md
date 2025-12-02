@@ -28,3 +28,10 @@ Here is how the system filters top-rated content using functional programming:
 ```python
 # Filtering content with a rating higher than 8.0
 top_rated = list(filter(lambda c: c.rating > 8.0, library))
+```
+## 📝 How to Run
+1. Clone the repository.
+2. Run the script:
+```bash
+python main.py
+```
